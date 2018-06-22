@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+    font-size: $default-font-size;
+    line-height: 1.7;
+    font-family: 'Playfair Display', serif;
+    background-color: $color-grey-light;
+}
+
+.heading-primary {
+    color: $color-grey-light;
+    text-shadow: 4px 3px 3px rgba(0, 0, 0, .7);
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        animation: moveInTop 1s ease-out;
+        margin-bottom: 3rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 4rem;
+        animation: moveInBottom 1s ease-out;
+
+    }
+}
+
+.heading-secondary {
+    display: inline-block;
+    font-size: 6rem;
+    margin: 7rem;
+    color: $color-green-1;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, .7);
+}
+
+.heading-tertiary {
+    font-size: 4rem;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, .7);
+    color: $color-brown-light;
+    margin-bottom: 3rem;
+}

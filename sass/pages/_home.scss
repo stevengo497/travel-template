@@ -1,0 +1,42 @@
+.section {
+    height: 95vh;
+    position: relative;
+
+    &__video {
+    position: bottom;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+    border-radius: 3rem;
+
+        &-content {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.section-equipment {
+    width: 100%;
+    text-align: center;
+}
+
+.section-about {
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+
+    &__pic {
+        width: 75%;
+        border-radius: 5px;
+        box-shadow: 0 1rem 2rem rgba($color-black, .4);
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05) translateY(-.5rem);
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.equipment {
+        width: 75%;
+        display: inline-block;
+        height: 15rem;
+        border-radius: 5px;
+        box-shadow: 0 1rem 2rem rgba($color-black, .4);
+        transition: all .2s;
+        position: relative;
+        margin-bottom: 3rem;
+
+    &__sony {
+        outline-offset: 2rem;
+
+        &:hover {
+            outline: 1.5rem solid $color-brown-light;
+            transform: scale(1.05) translateY(-.5rem);
+        }
+
+    }
+
+    &__gopro {
+        outline-offset: 2rem;
+
+        &:hover {
+            outline: 1.5rem solid $color-brown-light;
+            transform: scale(1.05) translateY(-.5rem);
+        }
+    }
+
+    &__drone {
+        outline-offset: 2rem;
+
+        &:hover {
+            outline: 1.5rem solid $color-brown-light;
+            transform: scale(1.05) translateY(-.5rem);
+        }
+    }
+
+    &__item {
+        font-size: 3rem;
+
+    }
+}
