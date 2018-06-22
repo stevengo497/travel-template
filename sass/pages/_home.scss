@@ -25,6 +25,7 @@
 .section-about {
     width: 100%;
     text-align: center;
+    height: 95vh;
 }
 
 .about {
@@ -39,4 +40,19 @@
             transform: scale(1.05) translateY(-.5rem);
         }
     }
+}
+
+.section-portfolio {
+    width: 100%;
+    text-align: center;
+    background-color: $color-black;
+
+}
+
+.section-equipment {
+    height: 95vh;
+}
+
+.section-form {
+    height: 95vh;
 }
