@@ -1,0 +1,28 @@
+.footer {
+    background-color: $color-black;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    color: $color-grey-dark;
+    border-radius: 3rem;
+    margin-top: 5rem;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transform: translateY(75%);
+            margin: auto 1rem;
+        }
+    }
+}

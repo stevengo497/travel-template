@@ -46,6 +46,7 @@
     width: 100%;
     text-align: center;
     background-color: $color-black;
+    border-radius: 3rem;
 
 }
 
@@ -55,4 +56,10 @@
 
 .section-form {
     height: 95vh;
+    position: relative;
+    text-align: center;
+}
+
+label {
+    float: left;
 }
